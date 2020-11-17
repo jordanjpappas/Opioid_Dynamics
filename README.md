@@ -58,20 +58,32 @@ Figure 1: Trends in deaths from drug overdoses and drug-related disorders from 1
 
 Scripts:
 * Analysis is run in the order shown below.
-  - 0-initialization-file.R: 
-  - 1-2-3-plot_disorders_and_overdose_trends.R: 
-  - 1a-set_up_mortality_database.R: 
-  - 1a-set_up_overdose_database.R: 
-  - 1b-pull_ICD_vectors.R: 
-  - 1c-extract_drug_related_disorders.R: 
-  - 1d-calculate_summary_statistics.R: 
-  - 4-plot_frequency_of_common_UCODs_where_CC_F1.R: 
-  - 5-plot_frequency_of_common_CCs_where_UCOD_F1.R: 
-  - 6a-plot_age_adjusted_mortality_rates_two_dots_by_state.R: 
-  - 6b-plot_age_adjusted_mortality_rates_two_dots_by_county.R: 
-  - 7-plot_disorders_and_overdoses_demograhic_trends.R: 
-  - 8-plot_mortality_median_age_for_F1.R: 
-  - 99-compile-docx.R: 
+  - 0-initialization-file.R: Load packages and set directories.
+  - 1-2-3-plot_disorders_and_overdose_trends.R: Plot trends from 1999-2018 in:
+    - 1
+      - (a) # of drug overdoses, total
+      - (b) # of drug overdoses, with filters on F1* contributing causes of death
+      - (c) # of total non-drug overdose deaths with either CC/underlying cause of death with a F1* cause
+    - 2
+      - (a) # of drug overdoses, total
+      - (b) # of drug overdoses, with filters on F1* contributing causes of death
+      - (c) # of total non-drug overdose deaths with either CC/underlying cause of death with a F1* cause
+      - (d) # of opioid overdoses, total
+      - (e) # of opioid overdoses, with filters on F1* contributing causes of death
+    - 3
+      - (a) # of total non-drug overdose deaths with an underlying cause of death (UCOD) with a F1* cause
+      - (b) # of total non-drug overdose deaths with a contributing, but not underlying, cause of death with a F1* cause
+  - 1a-set_up_mortality_database.R: Import, aggregate, and filter mortality data to set up final mortality database
+  - 1a-set_up_overdose_database.R: Import, aggregate, and filter overdose data to set up final overdose database
+  - 1b-pull_ICD_vectors.R: Pull relevant ICD codes from selected topics in ICD .txt file
+  - 1c-extract_drug_related_disorders.R: Extarct mortality database deaths that involved drug use but weren't drug overdoses
+  - 1d-calculate_summary_statistics.R: Calculate means for select variables across various time periods.
+  - 4-plot_frequency_of_common_UCODs_where_CC_F1.R: Plot top-15 most common underlying causes of death (UCOD) with non-drug overdose deaths with a F1* contributing, but not underlying, cause of death for 1999-2018 and 2015-2018
+  - 5-plot_frequency_of_common_CCs_where_UCOD_F1.R: Plot top-15 most common contributing causes of death with non-drug overdose deaths with a F1* underlying cause of death (UCOD) for 1999-2018 and 2015-2018
+  - 6a-plot_age_adjusted_mortality_rates_two_dots_by_state.R: Plot state-by-state dot-plots of mortality rates per 100,000 people for drug overdoses and drug-related disorders for 2018
+  - 6b-plot_age_adjusted_mortality_rates_two_dots_by_county.R: Plot top 15 county-by-county dot-plots of mortality rates per 100,000 people for drug overdoses and drug-related disorders for 2018
+  - 7-plot_disorders_and_overdoses_demograhic_trends.R: Plot variation in sex, race, and ethnicity of decedents for drug overdoses and drug-related disorders for 1999-2018
+  - 8-plot_mortality_median_age_for_F1.R: Plot variation in median age of decedents for drug overdoses and drug-related disorders for 1999-2018
 
 
 
