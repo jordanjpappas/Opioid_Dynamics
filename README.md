@@ -46,19 +46,19 @@
 # Usage
 [(Back to top)](#table-of-contents)
 
-- init-jordan.R: 
-- 00-collectwelldata.R: 
-- 01-BOE_conversion.R: 
-- 1a-mixedmodels.R: 
-- 1b-mixedmodels_BOE.R: 
-- 2a-sum_of_squares.py: 
-- 2b-mapping.R: 
-- 2c-shaleplaymap.R: 
-- 3-drilling_summstats.py: 
-- 4a-construct_county_shares.R: 
-- 4b-construct_play_shares.R: 
-- 5-compare_weighted_unweighted_approach.R: 
-- 6-compare_data_distributions.R: 
+- 0-initialization-file.R: 
+- 1-2-3-plot_disorders_and_overdose_trends.R: 
+- 1a-set_up_mortality_database.R: 
+- 1a-set_up_overdose_database.R: 
+- 1b-pull_ICD_vectors.R: 
+- 1c-extract_drug_related_disorders.R: 
+- 1d-calculate_summary_statistics.R: 
+- 4-plot_frequency_of_common_UCODs_where_CC_F1.R: 
+- 5-plot_frequency_of_common_CCs_where_UCOD_F1.R: 
+- 6a-plot_age_adjusted_mortality_rates_two_dots_by_state.R: 
+- 6b-plot_age_adjusted_mortality_rates_two_dots_by_county.R.R: 
+- 7-plot_disorders_and_overdoses_demograhic_trends.R.R: 
+- 8-plot_mortality_median_age_for_F1.R.R: 
 - 99-compile-docx.R: 
 
 
