@@ -1,10 +1,15 @@
 # “Dynamics in Drug-related Disorders from 1999-2018 in the U.S.”
 * Disclaimer: This analysis is currently preliminary and pending publication.
 
-<br /> • Study geographic development of oil and gas industry across US using cluster finite mixture models fit to county-level time series data.
-<br /> • Imported natural gas data in CSV format containing 1 million rows. Write R scripts to clean data using packages like dplyr, reshape2, tidyverse.
-<br /> • Apply machine learning algorithms such as finite mixture and clustering models using FlexMix package.
-<br /> • Prepare research paper for publication using ggplot2, Microsoft Word.
+### Coauthors:
+- Jordan Pappas, University of Rochester
+- Andrew Boslett, University of Rochester
+
+### Abstract:
+The U.S. is currently in the midst of a drug overdose epidemic. In 2018, 3.6% of the U.S. population misused prescription pain relievers, and there were 67,376 drug overdose deaths, more than X times the count in 1999. As the scale of the epidemic has grown, there has been a corresponding increase in the academic literature on drug overdose deaths, with studies highlighting trends in drug overdoses across time and space and characteristics of drug overdose decedents.
+
+Yet, drug overdose deaths are only a fraction of all deaths associated with drug use. People die from drug-related disorders, which reflect long-term addiction and behavior change due to drug use. In this paper, we fill a gap in the literature by describing trends in drug-related disorders in the U.S. from 1999 to 2018. We identify trends nationally and by state, focusing on areas with large relative changes in deaths involving drug-related disorders over time. We examine trends in drug-related disorders by drug class, with a particular focus on opioid-related disorders. We describe demographic and socio-economic characteristics of decedents of drug-related disorders and compare them to those of decedents from drug overdoses.
+
 
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/jordanjpappas/Opioid_Dynamics)
@@ -26,20 +31,19 @@
 # Table of contents
 
 - [Project Title](#project-title)
-- [Demo-Preview](#demo-preview)
+- [Preview](#preview)
 - [Table of contents](#table-of-contents)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Development](#development)
 - [Contribute](#contribute)
-    - [Sponsor](#sponsor)
-    - [Adding new features or fixing bugs](#adding-new-features-or-fixing-bugs)
 - [License](#license)
 - [Footer](#footer)
 
+
+
 # Installation
 [(Back to top)](#table-of-contents)
-
 
 
 
@@ -68,18 +72,8 @@
 
 
 
-
 # Contribute
 [(Back to top)](#table-of-contents)
-
-
-
-
-
-
-### Adding new features or fixing bugs
-[(Back to top)](#table-of-contents)
-
 
 
 
@@ -88,7 +82,7 @@
 
 
 
-
-
 # Footer
 [(Back to top)](#table-of-contents)
+
+
