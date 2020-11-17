@@ -7,15 +7,15 @@
 <br /> • Prepare research paper for publication using ggplot2, Microsoft Word.
 
 
-![GitHub last commit](https://img.shields.io/github/last-commit/jordanjpappas/Oil_Gas_Cluster_Analysis)
+![GitHub last commit](https://img.shields.io/github/last-commit/jordanjpappas/Opioid_Dynamics)
 
-![GitHub issues](https://img.shields.io/github/issues-raw/jordanjpappas/Oil_Gas_Cluster_Analysise)
+![GitHub issues](https://img.shields.io/github/issues-raw/jordanjpappas/Opioid_Dynamics)
 
-![GitHub pull requests](https://img.shields.io/github/issues-pr/jordanjpappas/Oil_Gas_Cluster_Analysis)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/jordanjpappas/Opioid_Dynamics)
 
-![GitHub all releases](https://img.shields.io/github/downloads/jordanjpappas/Oil_Gas_Cluster_Analysis/total):
+![GitHub all releases](https://img.shields.io/github/downloads/jordanjpappas/Opioid_Dynamics/total):
 
-![GitHub](https://img.shields.io/github/license/jordanjpappas/Oil_Gas_Cluster_Analysis)
+![GitHub](https://img.shields.io/github/license/jordanjpappas/Opioid_Dynamics)
 
 
 
